@@ -69,11 +69,26 @@ winget install OpenJS.NodeJS
 winget install Git.Git
 ```
 
-### ステップ 3: ターミナルの再起動
+### ステップ 3: Git のユーザー名とメールアドレスの設定
+
+Git を初めて使用する場合は、ユーザー名とメールアドレスの設定が必要です。以下のコマンドを実行してください（名前とメールアドレスは自分のものに置き換えてください）：
+
+```powershell
+git config --global user.name "あなたの名前"
+git config --global user.email "your-email@example.com"
+```
+
+**例:**
+```powershell
+git config --global user.name "aoyama taro"
+git config --global user.email "taroaoyama@gmail.com"
+```
+
+### ステップ 4: ターミナルの再起動
 
 Node.js と Git のインストール後、環境変数を適用するためにターミナル（PowerShell、コマンドプロンプト、Windows Terminal など）を再起動することを推奨します。
 
-### ステップ 4: Claude Code のインストール
+### ステップ 5: Claude Code のインストール
 
 npm を使用してグローバルにインストールします：
 
@@ -88,7 +103,7 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 ```
 
-### ステップ 5: Claude Code の起動
+### ステップ 6: Claude Code の起動
 
 インストールが完了したら、以下のコマンドで起動します：
 
