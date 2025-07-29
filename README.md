@@ -43,15 +43,14 @@ Claude Code は、Anthropic が開発した AI コーディングアシスタン
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-3. 確認メッセージが表示されたら `Y` を入力して ENTER キーを押す
-
-**確認メッセージをスキップしたい場合:**
-
-確認メッセージを表示せずに直接設定したい場合は、`-Force` オプションを使用します：
+**恒久的に設定するコマンド:**
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
+
+確認メッセージが表示されたら `Y` を入力して ENTER キーを押す
+
 
 これにより、ローカルで作成されたスクリプトと、インターネットからダウンロードされた署名済みスクリプトの実行が許可されます。
 
