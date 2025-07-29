@@ -49,8 +49,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 
-確認メッセージが表示されたら `Y` を入力して ENTER キーを押す
-
 
 これにより、ローカルで作成されたスクリプトと、インターネットからダウンロードされた署名済みスクリプトの実行が許可されます。
 
