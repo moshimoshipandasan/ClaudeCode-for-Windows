@@ -43,10 +43,10 @@ Claude Code は、Anthropic が開発した AI コーディングアシスタン
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-**ユーザー全体で恒久的に設定するコマンド:**
+**ユーザーレベルで恒久的に設定するコマンド:**
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine -Force
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 
 確認メッセージが表示されたら `Y` を入力して ENTER キーを押す
