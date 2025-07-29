@@ -45,6 +45,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 3. 確認メッセージが表示されたら `Y` を入力して ENTER キーを押す
 
+**確認メッセージをスキップしたい場合:**
+
+確認メッセージを表示せずに直接設定したい場合は、`-Force` オプションを使用します：
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+```
+
 これにより、ローカルで作成されたスクリプトと、インターネットからダウンロードされた署名済みスクリプトの実行が許可されます。
 
 ## インストール手順
