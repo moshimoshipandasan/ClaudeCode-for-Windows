@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:forest.watch.impress.co.jp)",
       "Bash(git add:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(git commit:*)",
+      "Bash(git mv:*)"
     ],
     "deny": []
   }
