@@ -74,14 +74,8 @@ winget install Git.Git
 Git を初めて使用する場合は、ユーザー名とメールアドレスの設定が必要です。以下のコマンドを実行してください（名前とメールアドレスは自分のものに置き換えてください）：
 
 ```powershell
-git config --global user.name "あなたの名前"
+git config --global user.name "your-name"
 git config --global user.email "your-email@example.com"
-```
-
-**例:**
-```powershell
-git config --global user.name "aoyama taro"
-git config --global user.email "taroaoyama@gmail.com"
 ```
 
 ### ステップ 4: ターミナルの再起動
